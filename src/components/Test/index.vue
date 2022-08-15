@@ -11,7 +11,7 @@
     </el-aside>
     <el-main>
         <template>
-            Simple Body
+            Simple Body 
             <div>
         <el-input v-model="input" placeholder="Email" v-if="checked1"></el-input>
         <el-input v-model="input" placeholder="Name" v-if="checked2"></el-input>
@@ -27,7 +27,7 @@
 export default {
   name: "Test",
   data () {
-      return {
+      return { 
         check:true,
         checked1:false,
         checked2:false,
